@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Vircom-Team-Web/precache-manifest.4154b360ecc0c126fc9a757082b86bc8.js"
+  "/Vircom-Team-Web/precache-manifest.6794b9b7c4d25ec6f6a0980a87f5d4e2.js"
 );
 
 self.addEventListener('message', (event) => {
