@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53bc60da9e8e4a2f38ae75856561cdb2",
+    "revision": "eff858d680104c444d27b6fdc088f07c",
     "url": "/Vircom-Team-Web/index.html"
   },
   {
-    "revision": "c1b0026eb0a72debcc1e",
+    "revision": "1fe934a4b6fb869ba9c1",
     "url": "/Vircom-Team-Web/static/css/main.6c1bf35b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Vircom-Team-Web/static/js/2.c5d4b155.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1b0026eb0a72debcc1e",
-    "url": "/Vircom-Team-Web/static/js/main.e27bb961.chunk.js"
+    "revision": "1fe934a4b6fb869ba9c1",
+    "url": "/Vircom-Team-Web/static/js/main.a8975339.chunk.js"
   },
   {
     "revision": "8406a39e2496f9fd6884",
