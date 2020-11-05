@@ -17,7 +17,7 @@ export default class Navbar extends Component{
           =
         </button>
         <ul className={this.state.toggle ? "nav-links show-nav" : "nav-links"}>
-          <li><NavLink  to="/home" activeClassName="linkscss">Home</NavLink></li>
+          <li><NavLink  to="/" activeClassName="linkscss">Home</NavLink></li>
           <li><NavLink to="/about">About Us</NavLink></li>
           <li><NavLink to="/contact">Contact Us</NavLink></li>
         </ul>
