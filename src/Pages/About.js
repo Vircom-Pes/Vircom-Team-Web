@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import Navbar from './Nav.js';
 
 export default class About extends Component{
     render(){
         return(
             <>
+            <div className="Nav">
+            <Navbar/> 
+            </div>
             <div className="aboutus">
                 <label>Name</label>
                 <input type="text" placeholder="Name"></input>

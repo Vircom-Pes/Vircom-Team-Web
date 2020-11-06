@@ -5,25 +5,27 @@ li{
 button{
   font-size: 30px;
   margin-left: 30px;
+  margin-top: 10px;
+  padding: 0px 15px;
   color:black;
   background-color: white;
   border: none;
   cursor: pointer;
   outline: none;
-  float: left;
+  float: right;
 }
 
 .Navbar{
   width: 100%;
   background-color:black;
   color: black;
-  padding: 1px;
+  padding: 3px;
 }
 
 .nav-links {
   height: 0;
   width: 100%;
-  padding: 21px 10px;
+  padding: 0 30px;
   background-color: black;
   overflow: hidden;
   list-style-type: none;
@@ -34,8 +36,16 @@ button{
     height: 120px;
 }
 
-.linkscss{
-  color: azure;
+.menu-active{
+  text-decoration: none;
+  color:red;
+}
+.menu {
+  text-decoration: none;
+  color:white;
+}
+.menu:hover{
+  color: red;
 }
 
 /* Media screen size */
@@ -44,7 +54,7 @@ button{
         display: none;
     }
 
-    .nav-links {
+    .nav-links{
         height: auto;
         display: flex;
         font-family: 'Caudex';
@@ -52,5 +62,13 @@ button{
 
     li {
         padding: 0 21px;
+        padding-top: 3px;
     }
+
+    img{
+      height: 27px;
+      width: 120px;
+      padding-left: 1000px;
+    }
+    
 }
