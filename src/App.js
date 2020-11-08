@@ -10,7 +10,7 @@ export default class App extends Component{
     return(
       <Router>
         <Switch>
-        <Route path="/Vircom-Team-Web" component={Mainpage} />
+        <Route exact path="/Vircom-Team-Web" component={Mainpage} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         </Switch>
