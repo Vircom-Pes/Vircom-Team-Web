@@ -12,7 +12,7 @@ export default class Index extends Component{
       return(
         <>
         <div className="Nav">
-          <Navbar/> 
+          
         </div>
         </>
       );
