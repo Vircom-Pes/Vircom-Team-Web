@@ -28,6 +28,68 @@
     <title>React App</title>
   </head>
   <body>
+    
+    
+    
+    
+    
+    //button
+    <div class="container"><img src="https://image.shutterstock.com/image-vector/solution-symbol-lamp-icon-idea-260nw-787785661.jpg" alt="idea">
+
+<form action="results.html" method="GET">
+<input type="submit"name="submitbutton" class="btn" value="submit" onclick="alert('LOADING')">
+<div>
+<label>username 
+<input type="text" value="user" name="username" id="username" required>
+</label></div>
+<div>
+<label>password 
+<input type="password" name="password" value="password" id="password">
+</label>
+</div>
+<div>
+<label>idea</label>
+<input type="text" name="idea" id="idea" min="10">
+</div>
+<div>
+<label for="phone">phone</label>
+<input type="tel" name="phone" id="phone">
+</div>
+<div>
+<textarea id="feedback"name="feedback">feedback</textarea>
+</div>
+<button type="reset">RESET</button>
+<button type="submit" onclick="alert(nice idea)">SUBMIT</button>
+</form> 
+<button class="btn" style="color:red;border-radius:10px;bgcolor:black"href="form">submit an idea</button>
+.container{
+ position: relative;
+ width:100%;
+ max width:400px;
+}
+.container img{
+ width: 600px;
+ height:400px;
+}
+.container .btn{
+ position: absolute;
+ top: 50%;
+ left: 70%;
+ transform: translate(-50%, -50%);
+ background-color: red;color: black;
+ font-size: 16px;
+ padding:16px 30px;
+ text-align: center;
+}  
+.container .btn:hover{
+ background-color:  black;
+ }
+      //button
+      
+      
+      
+      
+      
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
